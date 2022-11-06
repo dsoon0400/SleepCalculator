@@ -1,11 +1,3 @@
-// Virginia Tech Honor Code Pledge:
-
-//
-// As a Hokie, I will conduct myself with honor and integrity at all times.
-// I will not lie, cheat, or steal, nor will I accept the actions of those who
-// do.
-// -- Your name (dsoon0400)
-
 package project1;
 
 /**
@@ -32,8 +24,7 @@ public class ProjectRunner {
      *            The argument
      */
     public static void main(String[] args) {
-        DisplayCollection collection = new DisplayCollection();
-        ShapeWindow window = new ShapeWindow(collection.getItemBag());
+        ShapeWindow window = new ShapeWindow();
     }
 
 }
